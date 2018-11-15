@@ -9,7 +9,7 @@ public:
         for (int i = 0; i < array.size(); ++i) {
             for (int j = 0; j < array[i].size(); ++j) {
                 if (array[i][j] == target) {
-                    isFind = false;
+                    isFind = true;
                 }
             }
         }
