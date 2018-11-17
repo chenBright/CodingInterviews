@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// 暴力解法，遍历每个元素
 class Solution {
 public:
     bool Find(int target, vector<vector<int> > array) {

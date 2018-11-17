@@ -24,8 +24,10 @@ private:
         if (target == array[i][j]) {
             return true;
         } else if (target < array[i][j]) {
+            // 查找左边和上边
             return Find(target, array, lowRow, highRow, lowCol, j - 1) || Find(target, array, lowRow, i - 1, j, highCol);
         } else {
+            // 查找右边和下边
             return Find(target, array, lowRow, highRow, j + 1, highRow) || Find(target, array, i + 1, highRow, lowCol, j);
         }
     }
