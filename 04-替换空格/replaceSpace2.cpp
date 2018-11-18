@@ -11,7 +11,7 @@ public:
         }
 
         // 从后向前遍历替换
-        for (int i = length - 1, j = len - 1; i >= 0; --i) {
+        for (int i = length - 1, j = len - 1; i >= 0 && j>= 0; --i) {
             if (str[i] != ' ') {
                 str[j--] = str[i];
             } else {
