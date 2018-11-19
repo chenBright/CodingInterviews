@@ -9,6 +9,7 @@ struct ListNode {
     val(x), next(NULL) {}
 };
 
+// 使用递归实现逆序打印链表
 class Solution {
 private:
     void visit(vector<int> &result, ListNode* node) {

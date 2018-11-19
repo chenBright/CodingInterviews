@@ -10,6 +10,7 @@ struct ListNode {
     val(x), next(NULL) {}
 };
 
+// 使用栈实现逆序打印链表
 class Solution {
 public:
     vector<int> printListFromTailToHead(ListNode* head) {
