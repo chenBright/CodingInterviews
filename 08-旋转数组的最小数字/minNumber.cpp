@@ -1,7 +1,7 @@
 #include <vector>
 using namespace std;
 
-// 遍历所有元素，最初最小的值
+// 遍历所有元素，选择最小的值
 class Solution {
 public:
     int minNumberInRotateArray(vector<int> rotateArray) {

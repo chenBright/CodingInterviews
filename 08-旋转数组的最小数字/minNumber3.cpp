@@ -1,6 +1,7 @@
 #include <vector>
 using namespace std;
 
+// 二分查找
 class Solution {
 public:
     int minNumberInRotateArray(vector<int> rotateArray) {
@@ -32,10 +33,5 @@ public:
         }
 
         return rotateArray[mid];
-    }
-
-private:
-    int findMinInorder() {
-        return 0;
     }
 };
