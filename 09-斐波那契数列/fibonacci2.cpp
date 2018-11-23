@@ -5,16 +5,21 @@ using namespace std;
 class Solution {
 public:
     int Fibonacci(int n) {
-        vector<int> results;
-        results.push_back(0);
-        results.push_back(1);
-
-        for (int i = 2; i <= n; ++i) {
-            int sum = results[i - 1] + results[i - 2];
-            results.push_back(sum);
+        int fibonacci_1 = 0, fibonacci_2 = 1, fibonacciResult;
+        if (n == 0) {
+            return fibonacci_1;
+        }
+        if (n == 1) {
+            return fibonacci_2;
         }
 
-        return results[n];
+        for (int i = 2; i <= n; ++i) {
+            fibonacciResult = fibonacci_1 + fibonacci_2;
+            fibonacci_1 = fibonacci_2;
+            fibonacci_2 = fibonacciResult;
+        }
+
+        return fibonacciResult;
     }
 
 };
