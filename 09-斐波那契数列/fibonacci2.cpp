@@ -1,6 +1,3 @@
-#include <vector>
-using namespace std;
-
 // 自底向上计算，并在计算的过程中缓存已经计算过的值
 class Solution {
 public:
