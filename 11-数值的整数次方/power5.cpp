@@ -9,15 +9,21 @@ public:
             return 1.0;
         }
 
-        bool isNegative = false; // 指数是否为负数
+        bool isNegative = false;
         if (exponent < 0) {
             isNegative = true;
             exponent = -exponent;
-        }
+        } 
 
         double result = 1.0;
-        for (int i = 0; i < exponent; ++i) {
-            result *= base;
+        double temp = base;
+        while (exponent != 0) {
+            // 指数为奇数
+            if ((exponent & 1) == 1) {
+                result *= base;
+            }
+            temp *= temp;
+            exponent >>= 1;
         }
 
         // 如果指数为负数，则结果去倒数
