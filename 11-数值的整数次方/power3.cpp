@@ -12,6 +12,7 @@ public:
         bool isNegative = false;
         if (exponent < 0) {
             isNegative = true;
+            exponent = -exponent;
         } 
 
         double result = Power(base, exponent >> 1);
