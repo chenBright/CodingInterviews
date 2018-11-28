@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
 public:
-    void Print(int n) {
+    void PrintToMaxOfNDigits(int n) {
         int max = pow(10, n);
         for (int i = 0; i < max; ++i) {
             cout << i << endl;
