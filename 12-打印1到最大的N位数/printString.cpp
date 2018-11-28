@@ -17,6 +17,8 @@ public:
         while (!Increment(number)) {
             printNumber(number);
         }
+
+        delete []number;
     }
 
 private:
@@ -39,10 +41,10 @@ private:
                 }
 
                 nSum -= 10;
-                number[i]= 0 + nSum; 
+                number[i] = nSum + '0';
                 takeOver = 1;
             } else {
-                number[i] = '0' + nSum;
+                number[i] = nSum + '0';
                 break;
             }
         }
