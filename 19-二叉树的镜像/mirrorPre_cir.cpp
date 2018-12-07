@@ -30,7 +30,7 @@ public:
 
                 nodeStack.push(node);
                 node= node->left; 
-            } else { // 处理跟结点和右子树
+            } else { // 处理根结点和右子树
                 node = nodeStack.top();
                 nodeStack.pop();
 
