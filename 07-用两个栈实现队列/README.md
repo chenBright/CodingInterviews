@@ -14,9 +14,6 @@
 - 出队时，将stack1逐个弹出并压入stack2中，将stack2的队头元素弹出作为出队元素，之后再将stack2剩下的元素逐个弹出并压入stack1。
 
 ```c++
-#include <stack>
-#include <limits.h>
-using namespace std;
 /**
  * 将stack1作为存储区，stack2作为临时缓冲区。
  * 入队时，将元素压入stack1。
@@ -74,10 +71,6 @@ private:
 - 出队时，如果stack2为空，则将stack1中的元素弹出并压入stack2，则将stack2栈顶元素作为队头元素弹出；如果stack2不为空，则将stack2栈顶元素作为队头元素弹出。
 
 ```c++
-#include <stack>
-#include <limits.h>
-using namespace std;
-
 /**
  * 将stack1作为输入栈，stack2作为输出栈。
  * 调用push时，将元素压入到stack1中；
