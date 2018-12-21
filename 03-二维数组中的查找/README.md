@@ -11,10 +11,6 @@
 暴力解法，就是遍历每个元素，看是否存在需要查找的数字。
 
 ```c++
-#include <vector>
-
-using namespace std;
-
 class Solution {
 public:
     bool Find(int target, vector<vector<int> > array) {
@@ -44,9 +40,6 @@ public:
 解决方法：约定好，继续查找时，一边包含重叠部分，另一边则不包含即可。比如，右边或下边会在右下角有重叠部分，右边包含重叠部分，下边则不包含。
 
 ```c++
-#include <vector>
-using namespace std;
-
 // 使用二分查找的思想查找
 class Solution {
 public:
@@ -86,10 +79,6 @@ private:
 ### 从右上角的元素出发查
 
 ```c++
-#include <vector>
-
-using namespace std;
-
 class Solution {
 public:
     bool Find(int target, vector<vector<int> > array) {
@@ -123,10 +112,6 @@ public:
 ### 从左下角的元素出发查
 
 ```c++
-#include <vector>
-
-using namespace std;
-
 class Solution {
 public:
     bool Find(int target, vector<vector<int> > array) {

@@ -20,7 +20,6 @@
 这些都是异常情况，返回**NULL**。
 
 ```c++
-
 class Solution {
 public:
     ListNode* FindKthToTail(ListNode* pListHead, unsigned int k) {

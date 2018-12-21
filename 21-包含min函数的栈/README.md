@@ -17,10 +17,6 @@
 ## 实现
 
 ```c++
-#include <stack>
-#include <cassert>
-using namespace std;
-
 class Solution {
 public:
     void push(int value) {
