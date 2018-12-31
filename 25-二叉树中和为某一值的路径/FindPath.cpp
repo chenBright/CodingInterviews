@@ -13,7 +13,6 @@ struct TreeNode {
 class Solution {
 public:
     vector<vector<int> > FindPath(TreeNode* root,int expectNumber) {
-        v.clear();
         if (root == NULL || expectNumber == 0) {
             return v;
         }
