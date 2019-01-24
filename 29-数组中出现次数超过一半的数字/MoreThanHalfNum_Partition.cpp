@@ -38,11 +38,15 @@ private:
 
         while (i < j) {
             // 从后面开始找，找到第一个不大于基准元素的元素
-            while (i < j && numbers[j--] > pivotNum);
+            while (i < j && numbers[j] > pivotNum) {
+                --j;
+            }
             numbers[i] = numbers[j];
 
             // 从前面开始找，找到第一个大于基准元素的元素
-            while (i < j && numbers[i++] <= pivotNum);
+            while (i < j && numbers[i] <= pivotNum) {
+                ++i;
+            }
             numbers[j] = numbers[i];
         }
         numbers[i] = pivotNum;
