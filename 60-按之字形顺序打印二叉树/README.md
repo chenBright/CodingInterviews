@@ -1,8 +1,8 @@
-# 60-把二叉树打印成多行
+# 60-按之字形顺序打印二叉树
 
 ## 题目
 
-牛客OJ：[60-把二叉树打印成多行](https://www.nowcoder.com/practice/91b69814117f4e8097390d107d2efbe0?tpId=13&tqId=11212&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking)
+牛客OJ：[60-按之字形顺序打印二叉树](https://www.nowcoder.com/practice/91b69814117f4e8097390d107d2efbe0?tpId=13&tqId=11212&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking)
 
 ## 代码
 
