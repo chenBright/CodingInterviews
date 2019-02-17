@@ -1,7 +1,10 @@
 # CodingInterviews
 剑指Offer题解
 
+## 参考
 
+- 《剑指Offer》
+- [gatieme 的 github](https://github.com/gatieme)
 
 ## 牛客OJ
 
